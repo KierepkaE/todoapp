@@ -1,0 +1,45 @@
+* {
+    text-align: center;
+    box-sizing: border-box;
+    background: lavender;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+}
+
+button {
+    margin-left: 5px;
+    border: 2px solid slategray;
+    box-shadow: .2px .2px .2px slategray;
+    border: 2px solid rgb(99, 113, 128);
+}
+
+.active {
+    min-height: 150px;
+}
+
+.done {
+    padding: 20px 2px 20px;
+    min-height: 150px;
+}
+
+label {
+    margin: 10px 10px 10px;
+}
+
+input {
+    margin: 10px 10px 10px;
+    border: 2px solid rgb(99, 113, 128);
+}
+
+em {
+    padding-right: 7px;
+}
+
+strong,
+.message {
+    color: slategray
+}
+
+.message {
+    line-height: 150px;
+}
